@@ -1,0 +1,29 @@
+{
+  "name": "alveyjs-lib",
+  "version": "0.0.8",
+  "description": "An extend lib for bitcoinjs-lib, it supports two new network of alvey and alvey-testnet, and it can generate contract creating and sending transactions",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alveycoin/alveyjs-lib.git"
+  },
+  "keywords": [
+    "alvey",
+    "alveyjs",
+    "smart contract",
+    "bitcoin"
+  ],
+  "author": "Alvey Weiyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alveycoin/alveyjs-lib/issues"
+  },
+  "homepage": "https://github.com/alveycoin/alveyjs-lib#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "alvey-opcodes": "^1.0.0",
+    "safe-buffer": "^5.1.1"
+  }
+}
